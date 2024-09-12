@@ -39,7 +39,7 @@ a{
     padding: 50px;
 }
 
-.container1_left, .container1_right{
+.container1_left{
     height: 250px;
     width: 600px;
     color: white;
@@ -75,7 +75,9 @@ a{
 }
 
 .container1_image{
-    display: flex
+    display: flex;
+    height: 250px;
+    width: 250px;
 }
 
 .container2{
@@ -98,6 +100,7 @@ a{
 }
 
 .container2_item{
+    padding-bottom: 30px;
     height: 200px;
     width: 100px;
     text-align: center;    
@@ -109,6 +112,12 @@ a{
     border-color:  rgb(40, 123, 248);
     border-style: groove;
     border-radius: 10px;
+}
+
+.container2_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
 }
 
 .container3{
